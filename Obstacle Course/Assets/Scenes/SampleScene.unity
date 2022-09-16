@@ -239,6 +239,40 @@ MonoBehaviour:
   m_MaximumFOV: 60
   m_MinimumOrthoSize: 1
   m_MaximumOrthoSize: 5000
+--- !u!1 &470342693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8820550907373545004, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
+  m_PrefabInstance: {fileID: 6229477179876342937}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &470342698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470342693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3978e81fa550d49bc6ac554e71c0ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &698520698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3178248502374128347, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
+  m_PrefabInstance: {fileID: 944742944}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &698520703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698520698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3978e81fa550d49bc6ac554e71c0ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,7 +365,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &944742944
 PrefabInstance:
@@ -342,7 +376,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3178248502374128347, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_Name
-      value: Cube (1)
+      value: Wall 3
       objectReference: {fileID: 0}
     - target: {fileID: 5165241043649377330, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -350,7 +384,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 98b36ed5950bd054eb7487e5eb0c28cc, type: 2}
     - target: {fileID: 8637367934374026861, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8637367934374026861, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -609,7 +643,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1262711183
 PrefabInstance:
@@ -632,7 +666,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 98b36ed5950bd054eb7487e5eb0c28cc, type: 2}
     - target: {fileID: 2426758652139676314, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2426758652139676314, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
       propertyPath: m_LocalPosition.x
@@ -676,10 +710,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8820550907373545004, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
       propertyPath: m_Name
-      value: Cube (2) Variant
+      value: Wall 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
+--- !u!1 &1811291167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3178248502374128347, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
+  m_PrefabInstance: {fileID: 142848462066086384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1811291172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811291167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3978e81fa550d49bc6ac554e71c0ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1851224426
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,7 +800,7 @@ Transform:
   m_Children:
   - {fileID: 157204072}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45.478, y: -364.376, z: -2.377}
 --- !u!1 &1878066112
 GameObject:
@@ -849,7 +900,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1878066117
 MonoBehaviour:
@@ -893,6 +944,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1965071625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8820550907373545004, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
+  m_PrefabInstance: {fileID: 1262711183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1965071630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965071625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3978e81fa550d49bc6ac554e71c0ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &142848462066086384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -902,7 +970,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3178248502374128347, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: Wall 4
       objectReference: {fileID: 0}
     - target: {fileID: 5165241043649377330, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -910,7 +978,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 98b36ed5950bd054eb7487e5eb0c28cc, type: 2}
     - target: {fileID: 8637367934374026861, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8637367934374026861, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -967,7 +1035,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 98b36ed5950bd054eb7487e5eb0c28cc, type: 2}
     - target: {fileID: 2426758652139676314, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2426758652139676314, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1011,7 +1079,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8820550907373545004, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
       propertyPath: m_Name
-      value: Cube (2)
+      value: Wall 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
