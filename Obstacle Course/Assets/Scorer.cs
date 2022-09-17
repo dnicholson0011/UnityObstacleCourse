@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Scorer : MonoBehaviour
 {
-    int hits;
+    int hits = 0;
 
     private void OnCollisionEnter(Collision other)
     {
