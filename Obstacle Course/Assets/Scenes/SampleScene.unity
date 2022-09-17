@@ -250,6 +250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short Cube (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4445105337606703228, guid: 4cf1d546628cbf141b2da20603515e8e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6198598714503587477, guid: 4cf1d546628cbf141b2da20603515e8e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -530,6 +534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6150383311831018128, guid: 31e90a6f4cc10f149b9efc2083b87ffe, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7578405424722570952, guid: 31e90a6f4cc10f149b9efc2083b87ffe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -657,6 +665,10 @@ PrefabInstance:
     - target: {fileID: 3178248502374128347, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_Name
       value: Wall 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178248502374128347, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5165241043649377330, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1166,6 +1178,10 @@ PrefabInstance:
     - target: {fileID: 8820550907373545004, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
       propertyPath: m_Name
       value: Wall 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8820550907373545004, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
@@ -1708,6 +1724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3178248502374128347, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5165241043649377330, guid: 81cd7d5d24b605f408eaedde49eb9bf7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1813,6 +1833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Island
       objectReference: {fileID: 0}
+    - target: {fileID: 6150383311831018128, guid: 31e90a6f4cc10f149b9efc2083b87ffe, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7578405424722570952, guid: 31e90a6f4cc10f149b9efc2083b87ffe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1878,6 +1902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8820550907373545004, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ac80e74a334de94eb357cb0fb6aeb69, type: 3}
 --- !u!1 &6645274356793931184 stripped
@@ -1907,6 +1935,10 @@ PrefabInstance:
     - target: {fileID: 4445105337606703228, guid: 4cf1d546628cbf141b2da20603515e8e, type: 3}
       propertyPath: m_Name
       value: Short Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445105337606703228, guid: 4cf1d546628cbf141b2da20603515e8e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6198598714503587477, guid: 4cf1d546628cbf141b2da20603515e8e, type: 3}
       propertyPath: m_Materials.Array.data[0]
